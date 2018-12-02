@@ -213,7 +213,7 @@ function Game() {
   gameStartSign.style.top = '291px';
   gameStartSign.style.left = '154px';
   gameStartSign.style.zIndex = '300';
-  gameStartSign.style.backgroundImage = "url('./images/gamestart.png') ";
+  gameStartSign.style.backgroundImage = "url('./images/gameStart.png') ";
   container.appendChild(gameStartSign);
 
   function scoreInit() {
