@@ -1,0 +1,26 @@
+.container {
+  height: 624px;
+  width: 500px;
+  background: url('images/bg.png');
+  position: relative;
+  overflow: hidden;
+  margin: 30px auto 0;
+}
+
+.base {
+  height: 112px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.msg-board {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 187px;
+  left: 125px;
+  background: darkslategray;
+  opacity: .5;
+  z-index: 250;
+}
